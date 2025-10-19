@@ -1,0 +1,7 @@
+- index.html, shop.html, about.html
+- css/style.css
+- js/main.js, js/shop.js
+- admin/ (Netlify CMS files)
+- content/products (10 markdown product placeholders)
+- site-settings.yml
+- assets/ (placeholder images)
