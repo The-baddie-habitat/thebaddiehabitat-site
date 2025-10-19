@@ -1,0 +1,23 @@
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  # Netlify configuration for The Baddie Habitat
+[build]
+  publish = "."      # Your site is in the root folder
+  command = ""       # No build command needed for static HTML/CSS
+
+[[redirects]]
+  from = "/*"        # All paths redirect to index.html (useful for links)
+  to = "/index.html"
+  status = 200
+
+# Optional: placeholder for future settings
+[context.production.environment]
+  # This is where you could put theme toggle or CMS variables later
+  THEME_COLOR = "neon-pink"
+  FONT_FAMILY = "Montserrat"
